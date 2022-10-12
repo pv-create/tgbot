@@ -1,6 +1,9 @@
 import React, {useEffect} from 'react';
 
 import Header from "./components/Header/Header";
+import ProductList from "./components/ProductList/ProductList";
+import Form from "./components/Form/Form";
+import {Route, Routes} from 'react-router-dom'
 const tg=window.Telegram.WebApp
 const App = () => {
     useEffect(()=>{
@@ -11,9 +14,12 @@ const App = () => {
     }
     return (
         <div>
+
             <Header/>
-            <button onClick={()=>{console.log(tg)}}></button>
-            <button onClick={onClose}>Close</button>
+            <Routes>
+                <Route index element={<ProductList />}/>
+                <Route path={'form'} element={<Form />}/>
+            </Routes>
         </div>
     );
 };
