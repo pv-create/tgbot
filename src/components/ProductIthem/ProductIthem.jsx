@@ -13,7 +13,7 @@ const ProductIthem = ({product, className, onAdd}) => {
         <>
             <div className="card" style={{width:'14rem'}}>
                 <div className="card-body">
-                    <img src="..." className="card-img-top" alt="..."/>
+                    {/*<img src="..." className="card-img-top" alt="..."/>*/}
                     <h5 className="card-title">{product.title}</h5>
                     {product.description}
                     <div>
