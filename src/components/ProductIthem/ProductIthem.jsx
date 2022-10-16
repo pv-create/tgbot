@@ -11,7 +11,7 @@ const ProductIthem = ({product, className, onAdd}) => {
 
     return (
         <>
-            <div className="card" style={{width:'14rem'}}>
+            <div className="card">
                 <div className="card-body">
                     {/*<img src="..." className="card-img-top" alt="..."/>*/}
                     <h5 className="card-title">{product.title}</h5>
