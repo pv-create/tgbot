@@ -12,7 +12,7 @@ const ProductIthem = ({product, className, onAdd}) => {
         <>
             <div className="card" style={{width:'14rem'}}>
                 <div className="card-body">
-                    <img src="..." className="card-img-top" alt="..."/>
+                    <img src="https://s1.eda.ru/StaticContent/Photos/120131084043/141113143428/p_O.jpg" className="card-img-top" alt="..."/>
                     <h5 className="card-title">{product.title}</h5>
                     {product.description}
                     <div>
