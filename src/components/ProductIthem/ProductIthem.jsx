@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from "../Button/Button";
 import './ProductIthem.css';
-import soup from '/Users/pavelvilkov/Desktop/projects/node/tgbot/client/src/assets/pictures/soup.jpg'
 
 const ProductIthem = ({product, className, onAdd}) => {
 
