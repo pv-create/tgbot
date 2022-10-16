@@ -6,14 +6,14 @@ import {useCallback, useEffect} from "react";
 import ProductItem from "../ProductIthem/ProductIthem";
 
 const products = [
-    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая'},
-    {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
-    {id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые'},
-    {id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая'},
-    {id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые'},
-    {id: '8', title: 'Куртка 5', price: 12000, description: 'Зеленого цвета, теплая'},
+    {id: '1', title: 'Суп', price: 500, description: 'Рыбный с фарелью'},
+    {id: '2', title: 'Котлеты', price: 120, description: 'Из говядины'},
+    {id: '3', title: 'Бургер 2', price: 500, description: 'С курицей'},
+    {id: '4', title: 'Пицца 8', price: 1220, description: 'Маргаритта с сыром'},
+    {id: '5', title: 'Суши 3', price: 500, description: 'С лососем и Фарелью'},
+    {id: '6', title: 'Курица 7', price: 600, description: 'В панировке с соусом'},
+    {id: '7', title: 'Картошка 4', price: 55, description: 'Жаренная с сырным соусом'},
+    {id: '8', title: 'Картошка 5', price: 120, description: 'ЗЖаренная с томатным соусом'},
 ]
 
 const getTotalPrice = (items = []) => {
