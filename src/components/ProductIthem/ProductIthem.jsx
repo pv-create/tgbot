@@ -23,11 +23,7 @@ const ProductIthem = ({product, className, onAdd}) => {
                     </Button>
                 </div>
             </div>
-
         </>
-
-
-
     );
 };
 
