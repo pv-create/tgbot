@@ -27,15 +27,15 @@ const ProductList = () => {
                 <label htmlFor="exampleInputPassword1" className="form-label">Your Name</label>
                 <input  onChange={(e)=>setName(e.target.value)} className="form-control" id="exampleInputPassword1"/>
             </div>
-            <div className="mb-3 form-check">
+            <div style={{marginLeft:"30px"}} className="mb-3 form-check">
                 <input onChange={()=>{setFirstAgree(true)}}  type="checkbox" className="form-check-input"/>
                     <label className="form-check-label" htmlFor="exampleCheck1">Согласен на обработку личной информации</label>
             </div>
-            <div className="mb-3 form-check">
+            <div style={{marginLeft:"30px"}} className="mb-xl-4 form-check">
                 <input onChange={()=>{setFirstAgree(true)}}  type="checkbox" className="form-check-input"/>
                 <label className="form-check-label" htmlFor="exampleCheck1">Согласен на отправку личной информации</label>
             </div>
-            <button onClick={onSubmit} type="submit" className="btn btn-primary">Submit</button>
+            <button style={{marginLeft:"30px"}} onClick={onSubmit} type="submit" className="btn btn-primary">Submit</button>
         </form>
     );
 };
